@@ -169,6 +169,61 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-page01" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2023/06/16/page01/" class="article-date">
+  	<time datetime="2023-06-15T17:27:33.000Z" itemprop="datePublished">2023-06-16</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/06/16/page01/">
+        page01
+        
+      </a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>一直很疑惑，对于使用IDENTITY进行自增的数据在添加几个数据后从个位数自增到了四位数。<br>IDENTITY列的值是由SQL Server内部的自增序列来生成的，它每次递增的幅度是根据当前的缓存大小来确定的。默认情况下，缓存大小是1000。<br>如果在第一天插入了5条记录，而缓存大小为默认值1000，那么第一个记录的ID将是1，第二个记录的ID将是2，以此类推，直到第五个记录的ID为5。<br>第二天，即使没有再添加新的记录，但由于缓存的存在，IDENTITY列的值仍然会以缓存大小的幅度递增。也就是说，即使没有添加新记录，ID的值也会从6开始递增。<br>因此，第二天添加的记录的ID从4000多开始，并且递增至4000+缓存大小。<br>如果你希望在第二天添加的记录的ID仍按照从1开始递增的方式生成，可以通过使用下面的命令将缓存大小设置为1来实现：<br>DBCC CHECKIDENT (‘YourTableName’, RESEED, 0)<br>DBCC CHECKIDENT (‘YourTableName’, RESEED)<br>将”YourTableName”替换为你实际使用的表名。这样，第二天添加的记录的ID将从1开始递增。<br>请注意，在执行DBCC CHECKIDENT之后，Identity列的当前值将被重置，并且之前生成的ID将无效。所以在使用此命令时，请仔细考虑可能的影响。</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+      
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-newpapername" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
