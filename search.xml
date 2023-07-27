@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>page001</title>
-      <link href="/2023/07/27/page001/"/>
-      <url>/2023/07/27/page001/</url>
-      
-        <content type="html"><![CDATA[<img src="/.io//07/27/page001/page01.jpg" class="lazyload placeholder" data-srcset="/.io//07/27/page001/page01.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="/2023/07/26/hello-world/"/>
       <url>/2023/07/26/hello-world/</url>
@@ -47,6 +34,31 @@
         <tags>
             
             <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Page001</title>
+      <link href="/2013/07/27/page001/"/>
+      <url>/2013/07/27/page001/</url>
+      
+        <content type="html"><![CDATA[<img src="/.io//07/27/page001/page01.jpg" class="lazyload placeholder" data-srcset="/.io//07/27/page001/page01.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
             
         </tags>
       
