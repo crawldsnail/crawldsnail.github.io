@@ -21,7 +21,7 @@
       <link href="/2019/01/01/test/"/>
       <url>/2019/01/01/test/</url>
       
-        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><img src="/2019/01/01/test/beijing.png" class="lazyload placeholder" data-srcset="/2019/01/01/test/beijing.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
+        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><p><img src="/./test/tt.png" class="lazyload placeholder" data-srcset="/./test/tt.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>]]></content>
       
       
       <categories>
