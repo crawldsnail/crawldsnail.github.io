@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>page001</title>
+      <link href="/2023/07/27/page001/"/>
+      <url>/2023/07/27/page001/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/07/26/hello-world/"/>
       <url>/2023/07/26/hello-world/</url>
@@ -21,7 +34,7 @@
       <link href="/2019/01/01/test/"/>
       <url>/2019/01/01/test/</url>
       
-        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><p><img src="C:\Users\31402\OneDrive\图片\akl.png" class="lazyload placeholder" data-srcset="C:\Users\31402\OneDrive\图片\akl.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="akl"></p>]]></content>
+        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><p><img src="/.io//beijing.png" class="lazyload placeholder" data-srcset="/.io//beijing.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="beijing"></p>]]></content>
       
       
       <categories>
