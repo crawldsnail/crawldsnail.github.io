@@ -8,7 +8,7 @@
       <link href="/2023/07/27/page001/"/>
       <url>/2023/07/27/page001/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<img src="/.io//07/27/page001/page01.jpg" class="lazyload placeholder" data-srcset="/.io//07/27/page001/page01.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
       
       
       
@@ -34,7 +34,7 @@
       <link href="/2019/01/01/test/"/>
       <url>/2019/01/01/test/</url>
       
-        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><p><img src="/.io//beijing.png" class="lazyload placeholder" data-srcset="/.io//beijing.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="beijing"></p>]]></content>
+        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><img src="/.io//01/01/test/beijing.png" class="lazyload placeholder" data-srcset="/.io//01/01/test/beijing.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
       
       
       <categories>
