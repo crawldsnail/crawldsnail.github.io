@@ -21,7 +21,7 @@
       <link href="/2019/01/01/test/"/>
       <url>/2019/01/01/test/</url>
       
-        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><img src="/.io//01/01/test/beijing.png" class="lazyload placeholder" data-srcset="/.io//01/01/test/beijing.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
+        <content type="html"><![CDATA[<p>test</p><p>abcdefghijklmnopqrstuvwxyz</p><img src="/2019/01/01/test/beijing.png" class="lazyload placeholder" data-srcset="/2019/01/01/test/beijing.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
       
       
       <categories>
@@ -46,7 +46,7 @@
       <link href="/2013/07/27/page001/"/>
       <url>/2013/07/27/page001/</url>
       
-        <content type="html"><![CDATA[<img src="/.io//07/27/page001/page01.jpg" class="lazyload placeholder" data-srcset="/.io//07/27/page001/page01.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">]]></content>
+        <content type="html"><![CDATA[<img src="/2013/07/27/page001/page01.jpg" class="lazyload placeholder" data-srcset="/2013/07/27/page001/page01.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image"><p>&#x2F;&#x2F;&#x2F;fengexian</p><p><img src="/page01.jpg" class="lazyload placeholder" data-srcset="/page01.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="这是图片" title="Magic Gardens"></p>]]></content>
       
       
       <categories>
