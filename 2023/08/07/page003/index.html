@@ -556,7 +556,78 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <h4 id="Git复习"><a href="#Git复习" class="headerlink" title="Git复习"></a>Git复习</h4><img src="/2023/08/07/page003/4e293c406be6b61589840703a27952b.png" class="lazyload placeholder" data-srcset="/2023/08/07/page003/4e293c406be6b61589840703a27952b.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">
+        <h1 id="Git复习"><a href="#Git复习" class="headerlink" title="Git复习"></a>Git复习</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img 4e293c406be6b61589840703a27952b.png This is an test image %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="工作区、暂存区、版本库-概念"><a href="#工作区、暂存区、版本库-概念" class="headerlink" title="工作区、暂存区、版本库 概念"></a>工作区、暂存区、版本库 概念</h3><p><strong>版本库</strong>:前面看到的.git隐藏文件夹就是版本库，版本库中存储了很多配置信息、日志信息和文件版本信息等</p>
+<p><strong>工作区</strong>:包含.git文件夹的目录就是工作区，也称为工作目录，主要用于存放开发的代码</p>
+<p><strong>暂存区</strong>:.git文件夹中有很多文件，其中有一个index文件就是暂存区，也可以叫做stage。暂存区是一个临时保存修改文件的地方</p>
+<img src="/2023/08/07/page003/1692546240656.jpg" class="lazyload placeholder" data-srcset="/2023/08/07/page003/1692546240656.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image">
+
+
+
+<h3 id="本地仓库操作"><a href="#本地仓库操作" class="headerlink" title="本地仓库操作"></a>本地仓库操作</h3><p>本地仓库常用命令如下:</p>
+<table>
+<thead>
+<tr>
+<th>git status</th>
+<th>查看文件状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>git add</td>
+<td>将文件的修改加入暂存区</td>
+</tr>
+<tr>
+<td>git reset</td>
+<td>将暂存区的文件取消暂存或者是切换到指定版本</td>
+</tr>
+<tr>
+<td>git commit</td>
+<td>将暂存区的文件修改提交到版本库</td>
+</tr>
+<tr>
+<td>git log</td>
+<td>查看日志</td>
+</tr>
+</tbody></table>
+<h3 id="Git工作区中文件的状态"><a href="#Git工作区中文件的状态" class="headerlink" title="Git工作区中文件的状态"></a>Git工作区中文件的状态</h3><p>Git工作区中的文件存在两种状态:</p>
+<p>untracked 未跟踪(未被纳入版本控制)</p>
+<p>tracked 已跟踪(被纳入版本控制)</p>
+<p>1)Unmodified 未修改状态</p>
+<p>2)Modified 已修改状态</p>
+<p>3)Staged 已暂存状态</p>
+<p>注意: 这些文件的状态会随着我们执行Git的命令发生变化</p>
+<h3 id="远程仓库操作"><a href="#远程仓库操作" class="headerlink" title="远程仓库操作"></a>远程仓库操作</h3><table>
+<thead>
+<tr>
+<th>git remote</th>
+<th>查看远程仓库</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>git remote add</td>
+<td>添加远程仓库</td>
+</tr>
+<tr>
+<td>git clone</td>
+<td>从远程仓库克隆</td>
+</tr>
+<tr>
+<td>git pull</td>
+<td>从远程仓库拉取</td>
+</tr>
+<tr>
+<td>git push</td>
+<td>推送到远程仓库</td>
+</tr>
+</tbody></table>
+<p>例、git remote add</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">				&lt;简称&gt;  &lt;url&gt;</span><br><span class="line">git remote add origin https://gitee.com/zero_zzh/reggie.git</span><br></pre></td></tr></table></figure>
+
+
+
+
+
 
       </div>
       <div class="post-tags-categories">
@@ -832,7 +903,7 @@
   <div class='content'>
     <div class="toc-main">
       <div class="toc-content">
-        <!-- <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#Git%E5%A4%8D%E4%B9%A0"><span class="toc-text">Git复习</span></a></li></ol> -->
+        <!-- <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Git%E5%A4%8D%E4%B9%A0"><span class="toc-text">Git复习</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E3%80%81%E7%89%88%E6%9C%AC%E5%BA%93-%E6%A6%82%E5%BF%B5"><span class="toc-text">工作区、暂存区、版本库 概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E6%93%8D%E4%BD%9C"><span class="toc-text">本地仓库操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E4%B8%AD%E6%96%87%E4%BB%B6%E7%9A%84%E7%8A%B6%E6%80%81"><span class="toc-text">Git工作区中文件的状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%93%8D%E4%BD%9C"><span class="toc-text">远程仓库操作</span></a></li></ol></li></ol></li></ol> -->
         <div class="toc"></div>
       </div>
     </div>
