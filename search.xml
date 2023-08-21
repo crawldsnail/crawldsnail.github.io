@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Linux_install_tomcat</title>
+      <link href="/2023/08/21/linux-install-tomcat/"/>
+      <url>/2023/08/21/linux-install-tomcat/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux安装Tomcat"><a href="#Linux安装Tomcat" class="headerlink" title="Linux安装Tomcat"></a>Linux安装Tomcat</h1><ol><li><p>前提条件</p><p>安装Tomcat需要先安装jdk</p></li><li><p>下载所需压缩包，上传至服务器</p><p>官网下载地址：<a href="https://tomcat.apache.org/">https://tomcat.apache.org/</a></p><p>我这里安装8.0.53对应自己jdk版本</p><img src="/2023/08/21/linux-install-tomcat/1692633816237.jpg" class="lazyload placeholder" data-srcset="/2023/08/21/linux-install-tomcat/1692633816237.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image"><p>找到二进制版入口</p><img src="/2023/08/21/linux-install-tomcat/1692633925458.jpg" class="lazyload placeholder" data-srcset="/2023/08/21/linux-install-tomcat/1692633925458.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image"><p>选择tar.gz直接下载</p><img src="/2023/08/21/linux-install-tomcat/1692634003112.jpg" class="lazyload placeholder" data-srcset="/2023/08/21/linux-install-tomcat/1692634003112.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image"><p>将压缩包拖到Xshell中上传</p><img src="/2023/08/21/linux-install-tomcat/1692634268833.jpg" class="lazyload placeholder" data-srcset="/2023/08/21/linux-install-tomcat/1692634268833.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image"></li><li><p>对资源进行解压</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf 压缩包名// 对压缩包进行解压</span><br></pre></td></tr></table></figure></li><li><p>开放8080端口</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#添加 --permanent永久生效，没有此参数重启后失效</span><br><span class="line">firewall-cmd --zone=public --add-port=8080/tcp --permanent </span><br><span class="line">#重新载入</span><br><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure></li><li><p>切换到bin目录下，启动（成功效果如图）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">./startup.sh// 启动</span><br><span class="line"># 这个文件停止tomcat服务，一般不用，用了就访问不了了    </span><br><span class="line">./shutdown.sh// 停止</span><br><span class="line"></span><br></pre></td></tr></table></figure><img src="/2023/08/21/linux-install-tomcat/1692634548106.jpg" class="lazyload placeholder" data-srcset="/2023/08/21/linux-install-tomcat/1692634548106.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class title="This is an test image"></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux_learning</title>
       <link href="/2023/08/21/linux-learning/"/>
       <url>/2023/08/21/linux-learning/</url>
