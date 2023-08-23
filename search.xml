@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Linux_firewalld</title>
+      <link href="/2023/08/23/linux-firewalld/"/>
+      <url>/2023/08/23/linux-firewalld/</url>
+      
+        <content type="html"><![CDATA[<h1 id="防火墙操作"><a href="#防火墙操作" class="headerlink" title="防火墙操作:"></a>防火墙操作:</h1><ol><li>查看防火墙状态(systemctl status firewalld、firewall-cmd –state)0</li><li>暂时关闭防火墙(systemctl stop firewalld)</li><li>永久关闭防火墙(systemctl disable firewalld)</li><li>开启防火墙(systemctl start firewalld)</li><li>开放指定端口(firewall-cmd –zone&#x3D;public–add-port&#x3D;8080&#x2F;tcp –permanent)关闭指定端口(firewall-cmd –zone&#x3D;public–remove-port&#x3D;8080&#x2F;tcp –permanent)</li><li>立即生效(firewall-cmd –reload)</li><li>查看开放的端口(firewall-cmd –zone&#x3D;public –list-ports)</li></ol><p>注意:<br>1、systemctl是管理Linux中服务的命令，可以对服务进行启动、停止、重启、查看状态等操作2、firewall-cmd是Linux中专门用于控制防火墙的命令为了保证系统安全，服务器的防火墙不建议关闭</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux firewalld </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux_install_tomcat</title>
       <link href="/2023/08/21/linux-install-tomcat/"/>
       <url>/2023/08/21/linux-install-tomcat/</url>
